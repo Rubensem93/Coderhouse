@@ -1,0 +1,138 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px; }
+
+body {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center; }
+
+main .logo-principal {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid black;
+  margin: auto; }
+
+main .logo-principal img {
+  width: 100%;
+  height: 100%; }
+
+main .titulo {
+  font-weight: 100;
+  color: #181717;
+  font-family: "Rampart One", cursive; }
+
+main .parrafo {
+  margin-top: 40px;
+  color: teal; }
+
+main .separacion {
+  width: 300px;
+  height: 5px;
+  margin: auto;
+  border-style: none;
+  background: -webkit-linear-gradient(left, red, blue, teal);
+  margin-top: 20px; }
+
+main .img-juegos {
+  width: 100%; }
+
+main .img-juegos img {
+  width: 300px;
+  height: 300px; }
+
+main .juegos {
+  font-family: "Righteous", cursive;
+  font-size: 50px; }
+
+main .container {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px; }
+
+main .item {
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.095);
+  transition: all 300ms;
+  position: relative; }
+
+main .item:hover::after {
+  opacity: 1;
+  transform: scale(1); }
+
+main .item:hover {
+  transform: scale(1.05); }
+
+main .item-text {
+  padding: 1em; }
+
+main .item-img {
+  max-width: 100%;
+  display: block;
+  height: 300px; }
+
+@media screen and (min-width: 590px) {
+  main .container {
+    grid-template-columns: repeat(3, 1fr); } }
+
+main .carrusel {
+  width: 25%;
+  margin-bottom: 50px; }
+
+@media (max-width: 600px) {
+  main .carrusel {
+    width: 70%; } }
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #4d4e4e;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  footer .social_icon, footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; }
+  footer .social_icon li, footer .menu li {
+    list-style: none; }
+  footer .social_icon a, footer .menu a {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s; }
+  footer .social_icon li a:hover {
+    transform: translateY(-10px); }
+  footer .menu li a {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75; }
+  footer .menu li a:hover {
+    opacity: 1; }
+  footer .derechos {
+    color: #ffff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.8rem; }
