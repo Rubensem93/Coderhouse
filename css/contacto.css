@@ -98,6 +98,16 @@ button:hover {
   box-shadow: 10px 10px 40px -14px #000;
 }
 
+@media screen and (max-width: 2400px){
+  .form{
+    margin-left: 1010px;
+    max-width: 300px;
+  }
+  .titulos{
+    margin-left: 10px;
+  }
+}
+
 @media screen and (max-width: 1280px){
   .form{
     margin-left: 390px;
@@ -124,6 +134,25 @@ button:hover {
   }
   .titulos{
     margin-left: 10px;
+  }
+}
+@media screen and (max-width: 450px){
+  .form{
+    margin-left: 50px;
+    max-width: 300px;
+  }
+  .titulos{
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .form{
+    margin-left: -9px;
+    max-width: 300px;
+  }
+  .titulos{
+    margin-left: -10px;
   }
 }
 
